@@ -1,0 +1,28 @@
+sequenceDiagram
+    participant Fan
+    participant Artist
+    participant Infanity
+    participant Blockchain
+
+    Note over Fan,Blockchain: Early Career Stage
+    Fan->>Artist: Subscribes to artist
+    loop Monthly
+        Artist->>Fan: Airdrops support tokens
+        Artist->>Blockchain: Records token distribution
+    end
+    Fan->>Artist: Unsubscribes
+    
+    Note over Fan,Blockchain: Time Passes
+    
+    Note over Fan,Blockchain: Artist Becomes Famous
+    Artist->>Blockchain: Queries early supporter data
+    Blockchain-->>Artist: Returns supporter list and tokens
+    
+    loop For each early supporter
+        Artist->>Infanity: Initiates reward airdrop
+        Infanity->>Blockchain: Records reward distribution
+        Infanity->>Fan: Sends reward notification
+    end
+    
+    Fan->>Infanity: Claims reward
+    Infanity->>Fan: Delivers exclusive content/perks
