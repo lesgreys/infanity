@@ -1,0 +1,22 @@
+graph TD
+    A[Fan Subscribes to Artist] --> B[Subscription Active]
+    B --> C[Regular Token Airdrops]
+    C --> D{Subscriber Decision}
+    D -->|Keep Tokens| E[Hold for Future Benefits]
+    D -->|Sell Tokens| F[List on Secondary Market]
+    F --> G[New Buyer Acquires Tokens]
+    G --> H{New Buyer Decision}
+    H -->|Keep Tokens| E
+    H -->|Sell Tokens| F
+    B --> I{Maintain Subscription?}
+    I -->|Yes| C
+    I -->|No| J[Subscription Ends]
+    J --> K[No More New Tokens]
+    K --> L{Decide on Held Tokens}
+    L -->|Keep| E
+    L -->|Sell| F
+
+    classDef decision fill:#f9f,stroke:#333,stroke-width:2px;
+    class D,H,I,L decision;
+    classDef process fill:#bbf,stroke:#333,stroke-width:2px;
+    class B,C,E,F,G,J,K process;

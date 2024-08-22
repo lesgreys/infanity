@@ -1,0 +1,18 @@
+sequenceDiagram
+    participant Artist
+    participant Infanity
+    participant NFTMarketplace
+    participant Fan
+    Artist->>Infanity: Uploads content for NFT
+    Infanity->>Infanity: Verifies content
+    Infanity->>NFTMarketplace: Mints NFT
+    NFTMarketplace-->>Infanity: Confirms NFT creation
+    Infanity-->>Artist: Notifies NFT ready for sale
+    Artist->>Infanity: Sets NFT price and terms
+    Infanity->>NFTMarketplace: Lists NFT for sale
+    Fan->>NFTMarketplace: Browses NFTs
+    Fan->>NFTMarketplace: Purchases NFT
+    NFTMarketplace->>Infanity: Notifies of sale
+    Infanity->>Artist: Transfers payment (minus fees)
+    Infanity->>Fan: Transfers NFT ownership
+    Fan->>NFTMarketplace: Accesses exclusive content
