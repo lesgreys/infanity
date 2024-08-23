@@ -1,0 +1,31 @@
+graph TD
+    A[Start] --> B[Login/Signup]
+    B --> C[Main Menu]
+    C --> D[Artist Discover Page]
+    C --> E[Channel Discovery Page]
+    C --> F[Profile Page]
+    D --> G[View Artist Profiles]
+    G --> H[Artist Profile]
+    H --> I[View Songs]
+    I --> J[Collect Individual Song]
+    J --> K{Purchase Song NFT?}
+    K -->|Yes| L[Complete Purchase]
+    K -->|No| I
+    H --> M[View Engaged Fans]
+    H --> N{Subscribe to Artist?}
+    N -->|Yes| O[Purchase NFT Subscription]
+    N -->|No| H
+    E --> P[Browse Channels]
+    P --> Q[Select Channel]
+    Q --> R{Is Private Channel?}
+    R -->|No| S[Access Public Channel]
+    R -->|Yes| T{Has Required NFT?}
+    T -->|Yes| U[Access Private Channel]
+    T -->|No| V[Purchase NFT]
+    V --> U
+    U --> W[Public Communication]
+    U --> X[Group DM]
+    F --> Y[Edit Profile]
+    F --> Z[Manage Subscriptions]
+    F --> AA[View Activity]
+    F --> AB[View Collected Songs]
