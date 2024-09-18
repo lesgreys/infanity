@@ -153,9 +153,7 @@
 - **Developers** have user stories to ensure that technical and backend tasks are aligned with user-facing features.
 - The **tables** provide a clear and organized view of all epics and their associated user stories, facilitating easier project planning and execution.
 
----
 
-This structured representation helps in tracking the progress of each feature and ensures that all team members understand their responsibilities and the expectations from each user story. It also aids in prioritizing tasks during sprint planning and allocating resources effectively.
 ### **V. Development Phases and Sprint Planning (Including Backend Work)**
 
 **Phases and Sprint Planning Table**
