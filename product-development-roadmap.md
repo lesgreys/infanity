@@ -27,75 +27,135 @@
 ### **IV. Epics and User Stories (Including Backend Work)**
 
 #### **Epic 1: User Registration, Web3 Wallet Creation, and Backend Setup**
+**Epics and User Stories Tables**
 
-- **User Story 1.1:** *As a new user, I want to register with Infanity and create an account so that I can access the platform's features.*
-- **User Story 1.2:** *As a user, I want to have an embedded Web3 wallet created during registration to interact with blockchain features seamlessly.*
-- **User Story 1.3:** *As a user, I must connect at least one social media or streaming account to proceed, enhancing personalization and integration.*
-- **User Story 1.4:** *As a developer, I need to design and implement the database schema to store user data securely.*
-- **User Story 1.5:** *As a developer, I need to create APIs for the mobile app to interact with the backend services.*
+---
 
-#### **Epic 2: Social Media and Streaming Platform Integration**
+### **Epic 1: User Registration, Web3 Wallet Creation, and Backend Setup**
 
-- **User Story 2.1:** *As a user, I want to connect my social media accounts to import my network and preferences.*
-- **User Story 2.2:** *As a user, I want to connect my streaming accounts to synchronize my playlists and listening history.*
-- **User Story 2.3:** *As a developer, I need to securely store access tokens and handle data synchronization from third-party APIs.*
+| **User Story ID** | **User Role** | **User Story Description**                                                                                                                                           |
+|-------------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1.1**           | New User      | As a new user, I want to register with Infanity and create an account so that I can access the platform's features.                                                   |
+| **1.2**           | User          | As a user, I want to have an embedded Web3 wallet created during registration to interact with blockchain features seamlessly.                                        |
+| **1.3**           | User          | As a user, I must connect at least one social media or streaming account to proceed, enhancing personalization and integration.                                       |
+| **1.4**           | Developer     | As a developer, I need to design and implement the database schema to store user data securely.                                                                       |
+| **1.5**           | Developer     | As a developer, I need to create APIs for the mobile app to interact with the backend services.                                                                       |
 
-#### **Epic 3: Artist/Music Discovery and Interaction**
+---
 
-- **User Story 3.1:** *As a user, I want to land on the Artist/Music Discovery page to explore new music.*
-- **User Story 3.2:** *As a user, I want to scroll through artists and click into an artist's profile to learn more and listen to their music.*
-- **User Story 3.3:** *As a user, I want to listen to music directly on the platform with high-quality streaming.*
-- **User Story 3.4:** *As a user, I want to mint music tracks on the blockchain to own a unique copy or support the artist.*
-- **User Story 3.5:** *As a user, I want to subscribe to artists using Hypersub, an on-chain subscription model, to receive exclusive content and updates.*
-- **User Story 3.6:** *As a developer, I need to design and implement APIs for artist discovery, music playback, minting, and subscriptions.*
+### **Epic 2: Social Media and Streaming Platform Integration**
 
-#### **Epic 4: Campaign Discovery and Participation**
+| **User Story ID** | **User Role** | **User Story Description**                                                                                                                 |
+|-------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| **2.1**           | User          | As a user, I want to connect my social media accounts to import my network and preferences.                                                |
+| **2.2**           | User          | As a user, I want to connect my streaming accounts to synchronize my playlists and listening history.                                      |
+| **2.3**           | Developer     | As a developer, I need to securely store access tokens and handle data synchronization from third-party APIs.                             |
 
-- **User Story 4.1:** *As a user, I want to access the Campaign Discovery page to find promotional campaigns by artists and brands.*
-- **User Story 4.2:** *As a user, I want to swipe left or right to browse through different campaigns.*
-- **User Story 4.3:** *As a user, I want to enter a campaign to read details, see participant lists, and decide whether to join.*
-- **User Story 4.4:** *As a user, I want to join campaigns directly from the platform to engage with artists and earn rewards.*
-- **User Story 4.5:** *As a developer, I need to implement backend services and APIs to handle campaign data and user participation.*
+---
 
-#### **Epic 5: Social Experience and Farcaster Integration**
+### **Epic 3: Artist/Music Discovery and Interaction**
 
-- **User Story 5.1:** *As a user, I want to register a Farcaster account to access the social features of the platform.*
-- **User Story 5.2:** *As a user, I want to view my social graph and navigate through multiple screens showing activity feeds, group chats, and public channels.*
-- **User Story 5.3:** *As a user, I want to see activities such as listening history, minted music, and campaign participation in the Activity tab.*
-- **User Story 5.4:** *As a user, I want to engage in private group chats and public channels related to music topics.*
-- **User Story 5.5:** *As a developer, I need to implement secure messaging and social features in the backend, ensuring data privacy and scalability.*
+| **User Story ID** | **User Role** | **User Story Description**                                                                                                                                      |
+|-------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **3.1**           | User          | As a user, I want to land on the Artist/Music Discovery page to explore new music.                                                                              |
+| **3.2**           | User          | As a user, I want to scroll through artists and click into an artist's profile to learn more and listen to their music.                                         |
+| **3.3**           | User          | As a user, I want to listen to music directly on the platform with high-quality streaming.                                                                      |
+| **3.4**           | User          | As a user, I want to mint music tracks on the blockchain to own a unique copy or support the artist.                                                            |
+| **3.5**           | User          | As a user, I want to subscribe to artists using Hypersub, an on-chain subscription model, to receive exclusive content and updates.                             |
+| **3.6**           | Developer     | As a developer, I need to design and implement APIs for artist discovery, music playback, minting, and subscriptions.                                           |
 
-#### **Epic 6: Database Design and Implementation**
+---
 
-- **User Story 6.1:** *As a developer, I need to design database models for Users, Artists, Songs, Campaigns, and Activities.*
-- **User Story 6.2:** *As a developer, I need to implement database tables and relationships to efficiently store and retrieve data.*
-- **User Story 6.3:** *As a developer, I need to ensure data integrity and optimize queries for performance.*
+### **Epic 4: Campaign Discovery and Participation**
 
-#### **Epic 7: Blockchain Integration and Tokenization**
+| **User Story ID** | **User Role** | **User Story Description**                                                                                                                                         |
+|-------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **4.1**           | User          | As a user, I want to access the Campaign Discovery page to find promotional campaigns by artists and brands.                                                       |
+| **4.2**           | User          | As a user, I want to swipe left or right to browse through different campaigns.                                                                                    |
+| **4.3**           | User          | As a user, I want to enter a campaign to read details, see participant lists, and decide whether to join.                                                          |
+| **4.4**           | User          | As a user, I want to join campaigns directly from the platform to engage with artists and earn rewards.                                                            |
+| **4.5**           | Developer     | As a developer, I need to implement backend services and APIs to handle campaign data and user participation.                                                      |
 
-- **User Story 7.1:** *As an artist, I want to tokenize my music for minting by fans to enhance monetization and fan engagement.*
-- **User Story 7.2:** *As a user, I want my minting and subscription transactions to be recorded on the blockchain for transparency.*
-- **User Story 7.3:** *As a developer, I need to automate the activation of Hypersub contracts when a new artist is added.*
-- **User Story 7.4:** *As a developer, I need to automate the minting process activation on the blockchain when a new song is added.*
+---
 
-#### **Epic 8: Secure Transactions with zkTLS**
+### **Epic 5: Social Experience and Farcaster Integration**
 
-- **User Story 8.1:** *As a user, I want my blockchain transactions to be secured with zkTLS to protect my data and ensure privacy.*
-- **User Story 8.2:** *As an artist, I want to verify transactions without exposing sensitive information.*
-- **User Story 8.3:** *As a developer, I need to implement zkTLS protocols in the backend services.*
+| **User Story ID** | **User Role** | **User Story Description**                                                                                                                                           |
+|-------------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **5.1**           | User          | As a user, I want to register a Farcaster account to access the social features of the platform.                                                                     |
+| **5.2**           | User          | As a user, I want to view my social graph and navigate through multiple screens showing activity feeds, group chats, and public channels.                            |
+| **5.3**           | User          | As a user, I want to see activities such as listening history, minted music, and campaign participation in the Activity tab.                                         |
+| **5.4**           | User          | As a user, I want to engage in private group chats and public channels related to music topics.                                                                      |
+| **5.5**           | Developer     | As a developer, I need to implement secure messaging and social features in the backend, ensuring data privacy and scalability.                                      |
 
-#### **Epic 9: Data Logging, Analytics, and Security**
+---
 
-- **User Story 9.1:** *As a platform operator, I want to log all user activities to provide analytics and improve services.*
-- **User Story 9.2:** *As a developer, I need to implement security measures to protect data and APIs from unauthorized access.*
-- **User Story 9.3:** *As a developer, I need to create APIs for the mobile app that are secure, efficient, and scalable.*
+### **Epic 6: Database Design and Implementation**
 
-#### **Epic 10: Compliance and Security**
+| **User Story ID** | **User Role** | **User Story Description**                                                                                                                                         |
+|-------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **6.1**           | Developer     | As a developer, I need to design database models for Users, Artists, Songs, Campaigns, and Activities.                                                              |
+| **6.2**           | Developer     | As a developer, I need to implement database tables and relationships to efficiently store and retrieve data.                                                      |
+| **6.3**           | Developer     | As a developer, I need to ensure data integrity and optimize queries for performance.                                                                              |
 
-- **User Story 10.1:** *As a platform owner, I want to ensure compliance with international regulations for digital assets and IP rights.*
-- **User Story 10.2:** *As a user, I want my personal data to be secure and compliant with privacy laws like GDPR.*
-- **User Story 10.3:** *As a developer, I need to implement data encryption, access controls, and compliance checks in the backend.*
+---
 
+### **Epic 7: Blockchain Integration and Tokenization**
+
+| **User Story ID** | **User Role** | **User Story Description**                                                                                                                                    |
+|-------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **7.1**           | Artist        | As an artist, I want to tokenize my music for minting by fans to enhance monetization and fan engagement.                                                     |
+| **7.2**           | User          | As a user, I want my minting and subscription transactions to be recorded on the blockchain for transparency.                                                 |
+| **7.3**           | Developer     | As a developer, I need to automate the activation of Hypersub contracts when a new artist is added.                                                           |
+| **7.4**           | Developer     | As a developer, I need to automate the minting process activation on the blockchain when a new song is added.                                                 |
+
+---
+
+### **Epic 8: Secure Transactions with zkTLS**
+
+| **User Story ID** | **User Role** | **User Story Description**                                                                                                                                |
+|-------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **8.1**           | User          | As a user, I want my blockchain transactions to be secured with zkTLS to protect my data and ensure privacy.                                              |
+| **8.2**           | Artist        | As an artist, I want to verify transactions without exposing sensitive information.                                                                       |
+| **8.3**           | Developer     | As a developer, I need to implement zkTLS protocols in the backend services.                                                                              |
+
+---
+
+### **Epic 9: Data Logging, Analytics, and Security**
+
+| **User Story ID** | **User Role**       | **User Story Description**                                                                                                                                           |
+|-------------------|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **9.1**           | Platform Operator   | As a platform operator, I want to log all user activities to provide analytics and improve services.                                                                 |
+| **9.2**           | Developer           | As a developer, I need to implement security measures to protect data and APIs from unauthorized access.                                                              |
+| **9.3**           | Developer           | As a developer, I need to create APIs for the mobile app that are secure, efficient, and scalable.                                                                    |
+
+---
+
+### **Epic 10: Compliance and Security**
+
+| **User Story ID** | **User Role**     | **User Story Description**                                                                                                                                              |
+|-------------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **10.1**          | Platform Owner    | As a platform owner, I want to ensure compliance with international regulations for digital assets and IP rights.                                                       |
+| **10.2**          | User              | As a user, I want my personal data to be secure and compliant with privacy laws like GDPR.                                                                               |
+| **10.3**          | Developer         | As a developer, I need to implement data encryption, access controls, and compliance checks in the backend.                                                              |
+
+---
+
+**Summary:**
+
+- **Total Epics:** 10
+- **Total User Stories:** 35
+- **User Roles Involved:** New User, User, Artist, Developer, Platform Operator, Platform Owner
+
+**Notes:**
+
+- **User Stories** are written from the perspective of different stakeholders to capture their needs and requirements.
+- **Developers** have user stories to ensure that technical and backend tasks are aligned with user-facing features.
+- The **tables** provide a clear and organized view of all epics and their associated user stories, facilitating easier project planning and execution.
+
+---
+
+This structured representation helps in tracking the progress of each feature and ensures that all team members understand their responsibilities and the expectations from each user story. It also aids in prioritizing tasks during sprint planning and allocating resources effectively.
 ### **V. Development Phases and Sprint Planning (Including Backend Work)**
 
 **Phases and Sprint Planning Table**
