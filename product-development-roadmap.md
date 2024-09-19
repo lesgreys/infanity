@@ -26,6 +26,25 @@
 
 ### **IV. Epics and User Stories (Including Backend Work)**
 
+**Table of Epics**
+
+---
+
+| **Epic ID** | **Epic Title**                                     | **Epic Description**                                                                                                                                                                          |
+|-------------|----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Epic 1**  | User Registration, Web3 Wallet Creation, and Backend Setup | Enable users to register with Infanity, create accounts, and have embedded Web3 wallets for seamless blockchain interactions. Set up the backend infrastructure and APIs for these features.    |
+| **Epic 2**  | Social Media and Streaming Platform Integration    | Allow users to connect their social media and streaming accounts to import networks and preferences, enhancing personalization and integration. Developers securely store access tokens and handle data synchronization from third-party APIs. |
+| **Epic 3**  | Artist/Music Discovery and Interaction             | Provide an Artist/Music Discovery page where users can explore new music, view artist profiles, listen to music, mint tracks on the blockchain, and subscribe to artists using Hypersub. Developers implement APIs for these functionalities. |
+| **Epic 4**  | Campaign Discovery and Participation               | Enable users to discover promotional campaigns by artists and brands, browse campaigns, read details, see participant lists, and join campaigns directly from the platform. Developers implement backend services and APIs to handle campaign data and participation. |
+| **Epic 5**  | Social Experience and Farcaster Integration        | Integrate Farcaster to provide social features, allowing users to register Farcaster accounts, view social graphs, navigate activity feeds, and engage in group chats and public channels. Developers implement secure messaging and social features in the backend. |
+| **Epic 6**  | Database Design and Implementation                 | Developers design database models for Users, Artists, Songs, Campaigns, and Activities. Implement database tables and relationships, ensure data integrity, and optimize queries for performance. |
+| **Epic 7**  | Blockchain Integration and Tokenization            | Allow artists to tokenize their music for minting by fans, enhancing monetization and fan engagement. Transactions are recorded on the blockchain for transparency. Developers automate the activation of Hypersub contracts when a new artist is added and the minting process when a new song is added. |
+| **Epic 8**  | Secure Transactions with zkTLS                     | Secure blockchain transactions with zkTLS to protect user data and ensure privacy. Allow artists to verify transactions without exposing sensitive information. Developers implement zkTLS protocols in backend services. |
+| **Epic 9**  | Data Logging, Analytics, and Security              | Log all user activities to provide analytics and improve services. Developers implement security measures to protect data and APIs from unauthorized access and create secure, efficient, and scalable APIs for the mobile app. |
+| **Epic 10** | Compliance and Security                            | Ensure compliance with international regulations for digital assets and IP rights. Protect user personal data in compliance with privacy laws like GDPR. Developers implement data encryption, access controls, and compliance checks in the backend. |
+
+---
+
 #### **Epic 1: User Registration, Web3 Wallet Creation, and Backend Setup**
 **Epics and User Stories Tables**
 
